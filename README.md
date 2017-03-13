@@ -28,4 +28,4 @@ This container installs dotnetcore and websocketd server.
 
 # Install Docker and Docker Compose
 
-View [INSTALL.md] (INSTALL.md)
+View [INSTALL.md] (https://github.com/mattwind/docker-csharp/blob/master/INSTALL.md)
