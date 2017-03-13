@@ -4,13 +4,13 @@
 
 Located in app/program/
 
-### Compile and Publish
+Make changes then compile then rebuild container
 
-`dotnet build && dotnet publish`
+`dotnet publish`
 
 ## Web files
 
-The html files are located in app/html
+Example html file located in app/html
 
 ## Websocket
 
