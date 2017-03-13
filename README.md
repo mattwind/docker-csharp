@@ -1,6 +1,6 @@
 # Docker csharp
 
-This container installs dotnetcore and websocketd server.
+This container runs dotnetcore application over websocketd server.
 
 ## Build Container
 
