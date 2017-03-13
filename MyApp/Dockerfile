@@ -16,6 +16,10 @@ RUN apt-get update && \
   curl -sSL -o dotnet.tar.gz https://go.microsoft.com/fwlink/?linkid=843453 && \
   mkdir -p /opt/dotnet && \
   tar zxf dotnet.tar.gz -C /opt/dotnet && \
-  ln -s /opt/dotnet/dotnet /usr/local/bin
+  ln -s /opt/dotnet/dotnet /usr/local/bin && \
+  cd $CSHARP && \
+  dotnet new console --framework netcoreapp1.1 && \
+  dotnet restore && \
+  dotnet publish
 
 CMD $INIT
