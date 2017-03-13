@@ -1,10 +1,6 @@
 version: "2"
 services:
   websocketd:
-    environment:
-      - APP_DIR=/opt/app
-      - CSHARP=$APP_DIR/program
-      - DOTNET_CLI_TELEMETRY_OPTOUT=1
     build: MyApp
     container_name: MyApp
     restart: always
