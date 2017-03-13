@@ -2,6 +2,7 @@ from debian
 
 ENV APP_DIR /opt/app
 ENV INIT $APP_DIR/bin/init
+ENV CSHARP $APP_DIR/program
 
 RUN apt-get update && \ 
   apt-get install -y \
