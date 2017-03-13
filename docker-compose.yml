@@ -4,5 +4,8 @@ services:
     build: MyApp
     container_name: MyApp
     restart: always
+    volumes:
+      - ./MyApp/app/program/:/opt/app/program/
+      - ./MyApp/app/html/:/opt/app/html/
     ports:
       - "80:80"
