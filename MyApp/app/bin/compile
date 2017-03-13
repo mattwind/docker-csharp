@@ -1,0 +1,4 @@
+#!/bin/bash
+cd $CSHARP
+dotnet migrate
+dotnet restore
