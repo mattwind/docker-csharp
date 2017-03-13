@@ -4,6 +4,9 @@ ENV APP_DIR /opt/app
 ENV INIT $APP_DIR/bin/init
 ENV CSHARP $APP_DIR/program
 
+WORKDIR $APP_DIR
+COPY app/ $APP_DIR
+
 RUN apt-get update && \ 
   apt-get install -y \
   curl \
@@ -15,6 +18,4 @@ RUN apt-get update && \
   tar zxf dotnet.tar.gz -C /opt/dotnet && \
   ln -s /opt/dotnet/dotnet /usr/local/bin
 
-WORKDIR $APP_DIR
-COPY app/ $APP_DIR
 CMD $INIT
