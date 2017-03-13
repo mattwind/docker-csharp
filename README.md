@@ -1,6 +1,6 @@
-# Docker container for dotnetcore and websocketd
+# Docker csharp
 
-Example container in MyApp folder
+This container installs dotnetcore and websocketd server.
 
 ## Build Container
 
@@ -10,14 +10,18 @@ Example container in MyApp folder
 
 `docker-compose -f ./docker-compose.yml up -d`
 
-## Stop
+## csharp project files
+
+`./MyApp/app/program/`
+
+## Web files
+
+`./MyApp/app/html/`
+
+## Stop Container
 
 `docker-compose -f ./docker-compose.yml stop`
 
-## Remove
+## Remove Container
 
 `docker-compose -f ./docker-compose.yml rm -f`
-
-## Connect to bash
-
-`docker exec -it MyApp bash`
