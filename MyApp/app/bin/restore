@@ -3,7 +3,7 @@ cd $CSHARP
 pwd
 echo "Migrating"
 echo
-dotnet migrate
+dotnet migrate --skip-backup
 echo 
 echo "Restoring"
 echo
