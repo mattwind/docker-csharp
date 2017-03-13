@@ -7,7 +7,9 @@ _term() {
 
 trap _term SIGTERM
 
-dotnet publish ./program/
+cd $APP_DIR/program/
+dotnet restore
+dotnet publish
 
 $APP_DIR/bin/websocketd --port=80 --staticdir=./html/ dotnet ./program/bin/Debug/netcoreapp1.1/publish/program.dll
 
