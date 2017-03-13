@@ -1,4 +1,9 @@
 #!/bin/bash
+
+cd $CSHARP
+dotnet migrate
+dotnet restore
+
 _term() {
   echo "Caught SIGTERM signal!"
   kill -TERM "$child" 2>/dev/null
