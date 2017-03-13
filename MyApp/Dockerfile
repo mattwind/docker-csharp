@@ -1,7 +1,6 @@
 from debian
 
 ENV APP_DIR /opt/app
-ENV INIT $APP_DIR/bin/init
 ENV CSHARP $APP_DIR/program
 
 WORKDIR $APP_DIR
@@ -19,4 +18,5 @@ RUN apt-get update && \
   ln -s /opt/dotnet/dotnet /usr/local/bin && \
   rm dotnet.tar.gz
 
-CMD $INIT
+CMD $APP_DIR/bin/recompile
+CMD $APP_DIR/bin/init
