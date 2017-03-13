@@ -26,6 +26,6 @@ This container runs dotnetcore application over websocketd server.
 
 `docker-compose -f ./docker-compose.yml rm -f`
 
-# Install Docker and Docker Compose
+### Install Docker and Docker Compose
 
 View [INSTALL.md] (https://github.com/mattwind/docker-csharp/blob/master/INSTALL.md)
