@@ -4,11 +4,11 @@ Source code for dotnet program is in ./app/program/
 
 ## Compile the dotnet project
 
-`dotnet build
+dotnet build
 
 dotnet run
 
-dotnet publish`
+dotnet publish
 
 ## Build Container
 
