@@ -6,6 +6,10 @@ dotnet compiles project when container is started
 
 Located in app/program/
 
+## Migrate Project
+
+`docker exec -it MyApp bash /opt/app/bin/restore`
+
 ## Recompile csharp project
 
 `docker exec -it MyApp bash /opt/app/bin/recompile`
