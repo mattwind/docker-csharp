@@ -4,5 +4,7 @@ services:
     build: MyApp
     container_name: MyApp
     restart: always
+    volume:
+      - ./MyApp/program:/opt/app/proram/
     ports:
       - "80:80"
