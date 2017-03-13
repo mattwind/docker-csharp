@@ -6,6 +6,10 @@ dotnet compiles project when container is started
 
 Located in app/program/
 
+## Recompile csharp project
+
+`docker exec -it MyApp bash -c $APP_DIR/bin/recompile`
+
 ## Web files
 
 Example html file located in app/html
