@@ -2,6 +2,8 @@
 
 This container runs dotnetcore application over websocketd server.
 
+![demo](https://github.com/mattwind/docker-csharp/blob/master/browser.png "demo")
+
 ## Build Container
 
 `docker-compose -f ./docker-compose.yml build`
@@ -19,6 +21,8 @@ This container runs dotnetcore application over websocketd server.
 ## Web files
 
 `./MyApp/app/html/`
+
+![html](https://github.com/mattwind/docker-csharp/blob/master/html.png "html")
 
 ## Stop Container
 
