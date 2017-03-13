@@ -1,6 +1,6 @@
 # Docker container for dotnetcore and websocketd
 
-Example project in MyApp folder
+Example container in MyApp folder
 
 ## Build Container
 
