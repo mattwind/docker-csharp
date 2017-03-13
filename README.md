@@ -4,28 +4,28 @@ Source code for dotnet program is in ./app/program/
 
 ## Compile the dotnet project
 
-dotnet build
+`dotnet build
 
 dotnet run
 
-dotnet publish
+dotnet publish`
 
 ## Build Container
 
-docker-compose -f ./docker-compose.yml build
+`docker-compose -f ./docker-compose.yml build`
 
 ## Start Container
 
-docker-compose -f ./docker-compose.yml up -d
+`docker-compose -f ./docker-compose.yml up -d`
 
 ## Stop
 
-docker-compose -f ./docker-compose.yml stop
+`docker-compose -f ./docker-compose.yml stop`
 
 ## Remove
 
-docker-compose -f ./docker-compose.yml rm -f
+`docker-compose -f ./docker-compose.yml rm -f`
 
 ## Connect to bash
 
-docker exec -it MyApp bash
+`docker exec -it MyApp bash`
