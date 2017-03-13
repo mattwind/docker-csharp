@@ -8,7 +8,7 @@ Located in app/program/
 
 ## Recompile csharp project
 
-`docker exec -it MyApp bash -c /opt/app/bin/recompile`
+`docker exec -it MyApp bash /opt/app/bin/recompile`
 
 ## Web files
 

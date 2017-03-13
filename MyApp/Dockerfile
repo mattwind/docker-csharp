@@ -16,7 +16,10 @@ RUN apt-get update && \
   mkdir -p /opt/dotnet && \
   tar zxf dotnet.tar.gz -C /opt/dotnet && \
   ln -s /opt/dotnet/dotnet /usr/local/bin && \
-  rm dotnet.tar.gz
+  rm dotnet.tar.gz core && \
+  cd $CSHARP && \
+  dotnet migrate && \
+  dotnet restore 
 
 CMD $APP_DIR/bin/recompile
 CMD $APP_DIR/bin/init
