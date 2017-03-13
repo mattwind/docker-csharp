@@ -1,5 +1,4 @@
 #!/bin/bash
-env
 echo "Compiling"
 cd $CSHARP
 dotnet publish
