@@ -1,22 +1,12 @@
 # Docker container for dotnetcore and websocketd
 
-dotnet compiles project when container is started
-
 ## csharp project files
 
-Located in app/program/
-
-## Migrate Project
-
-`docker exec -it MyApp bash /opt/app/bin/restore`
-
-## Recompile csharp project
-
-`docker exec -it MyApp bash /opt/app/bin/recompile`
+`app/program`
 
 ## Web files
 
-Example html file located in app/html
+`app/html`
 
 ## Websocket
 

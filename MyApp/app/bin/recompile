@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "Compiling"
-cd $CSHARP
-dotnet publish
-echo "Done"
