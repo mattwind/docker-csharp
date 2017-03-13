@@ -25,3 +25,7 @@ This container installs dotnetcore and websocketd server.
 ## Remove Container
 
 `docker-compose -f ./docker-compose.yml rm -f`
+
+# Install Docker and Docker Compose
+
+View [INSTALL.md] (INSTALL.md)
