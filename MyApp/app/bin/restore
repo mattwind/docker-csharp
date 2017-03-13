@@ -9,5 +9,7 @@ echo "Restoring"
 echo
 dotnet restore
 echo 
+dotnet publish
+echo
 echo "Done"
 echo
