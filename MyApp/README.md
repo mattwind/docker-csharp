@@ -1,6 +1,6 @@
 # Docker container for dotnetcore and websocketd
 
-dotnet compiles project when container is brought up
+dotnet compiles project when container is started
 
 ## csharp project files
 
