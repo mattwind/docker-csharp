@@ -19,6 +19,6 @@ RUN apt-get update && \
   ln -s /opt/dotnet/dotnet /usr/local/bin && \
   rm dotnet.tar.gz
 
-CMD $APP_DIR/bin/restore
+RUN bash $APP_DIR/bin/restore
 
 CMD $APP_DIR/bin/init
