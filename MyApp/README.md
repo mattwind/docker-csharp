@@ -1,12 +1,10 @@
 # Docker container for dotnetcore and websocketd
 
+dotnet compiles project when container is brought up
+
 ## csharp project files
 
 Located in app/program/
-
-Make changes then compile then rebuild container
-
-`dotnet publish`
 
 ## Web files
 
