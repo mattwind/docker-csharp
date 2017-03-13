@@ -1,11 +1,21 @@
 # Docker container for dotnetcore and websocketd
 
-## Csharp project in app/program/
+## csharp project files
 
-dotnet build
+Located in app/program/
 
-dotnet run
+### Compile and Publish
 
-dotnet publish
+`dotnet build && dotnet publish`
 
-## Web files in app/html
+## Web files
+
+The html files are located in app/html
+
+## Websocket
+
+Linux64bit version located in app/bin
+
+Other versions available at
+
+http://websocketd.com
