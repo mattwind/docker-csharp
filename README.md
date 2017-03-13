@@ -1,14 +1,6 @@
 # Docker container for dotnetcore and websocketd
 
-Source code for dotnet program is in ./app/program/
-
-## Compile the dotnet project
-
-dotnet build
-
-dotnet run
-
-dotnet publish
+Example project in MyApp folder
 
 ## Build Container
 
