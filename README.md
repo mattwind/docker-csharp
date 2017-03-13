@@ -2,7 +2,7 @@
 
 This container runs dotnetcore application over websocketd server.
 
-![demo](https://github.com/mattwind/docker-csharp/blob/master/browser.png "demo")
+![demo](https://github.com/mattwind/docker-csharp/blob/master/demo.png "demo")
 
 ## Build Container
 
