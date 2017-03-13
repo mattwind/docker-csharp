@@ -7,8 +7,6 @@ _term() {
 
 trap _term SIGTERM
 
-$APP_DIR/bin/recompile
-
 $APP_DIR/bin/websocketd --port=80 --staticdir=./html/ dotnet ./program/bin/Debug/netcoreapp1.1/publish/program.dll
 
 child=$!
