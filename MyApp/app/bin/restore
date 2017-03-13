@@ -1,4 +1,13 @@
 #!/bin/bash
 cd $CSHARP
+pwd
+echo "Migrating"
+echo
 dotnet migrate
+echo 
+echo "Restoring"
+echo
 dotnet restore
+echo 
+echo "Done"
+echo
