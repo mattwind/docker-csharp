@@ -14,6 +14,8 @@ This container runs dotnetcore application over websocketd server.
 
 `./MyApp/app/program/`
 
+![vscode](https://github.com/mattwind/docker-csharp/blob/master/vscode.png "vscode")
+
 ## Web files
 
 `./MyApp/app/html/`
